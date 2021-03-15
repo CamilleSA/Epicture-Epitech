@@ -1,0 +1,84 @@
+.App {
+    text-align: center;
+}
+
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.footerp{
+    font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #33353b;
+    color: white;
+    text-align: left;
+
+}
+
+
+
+.footer {
+    font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #33353b;
+    color: white;
+    text-align: left;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    color: #2a2a2a;
+    background-color: #2a2a2a;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1bb76e;
+    border-radius: 10px;
+    color: #2a2a2a;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,22 @@
+.imageuser {
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+
+.titlee {
+    color: white;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+
+
+.card--image {
+    margin-bottom: 30px;
+    width: 300px;
+
+}

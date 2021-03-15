@@ -1,0 +1,9 @@
+{ 
+  "name": "epicture",
+  "integrations": {
+    "capacitor": {} 
+  }, 
+  "type": "react"
+
+
+}

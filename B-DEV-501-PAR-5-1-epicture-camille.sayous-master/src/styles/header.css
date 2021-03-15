@@ -1,0 +1,146 @@
+.header_main{
+    max-width:100%;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    font-family: 'Source Sans Pro';
+    flex-direction: row;
+}
+
+span {
+    color: white;
+    font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding-right: 10px;
+    
+}
+.header_main .header_name{
+    min-width: 250px;
+    position: relative;
+    float:right
+}
+.header_main .header_logo{
+    display: inline-block;
+}
+
+.header_logo {
+    height: auto;
+    width: auto;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50%;
+    position: absolute;
+}
+.header_main  .ButtonLink{
+    text-align: center;
+    position: relative;
+    height:35px;
+    background-color: #1bb76e;
+    width:auto;
+    border-radius: 3px;
+    box-shadow: 0 6px 10px 0 rgba(27,28,30,.31);
+    color:#fff;
+    padding:7px 0px 10px 9px;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    margin :auto 20px;
+    font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+.button_search {
+    text-align: center;
+    height:35px;
+    background-color: #FF69B4;
+    width:auto;
+    border-radius: 3px;
+    box-shadow: 0 6px 10px 0 rgba(27,28,30,.31);
+    color:#fff;
+    padding:7px 5px 10px 9px;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    margin :auto 20px;
+    font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.ButtonSupport { 
+    
+    position: relative;
+    text-align: center;
+    height:35px;
+    width:auto;
+    border-radius: 3px;
+    box-shadow: 0 6px 10px 0 rgba(27,28,30,.31);
+    color:#fff;
+    padding:7px 2px 10px 9px;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    margin :auto 20px;
+    font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    background-color: #6432f9;
+}
+
+
+
+.ButtonLink img{
+    vertical-align: middle;
+    padding: 0;
+    margin-right: 13px;
+    
+    display: inline-block;
+    position: relative;
+}
+.header_main .header_search{
+    flex:1;
+    margin: 0 55px 0 0;
+    padding: 0;
+    max-width: 550px;
+
+}
+
+.header_main .header_right{
+    min-width: 200px;  
+    position: relative;
+}
+.header_main .header_right .right_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header_main .header_icon{
+    padding-left: 6px;    
+}
+ .header_icon a{
+    margin-right: 10px;
+
+}
+
+.Halloween img{
+    position: relative;
+}
+
+@media all and (max-width:30em) {
+    a.button_search {
+        display: block;
+        margin: 0.4em, auto; 
+    }
+    .header_logo {
+        text-align: center;
+    }
+}

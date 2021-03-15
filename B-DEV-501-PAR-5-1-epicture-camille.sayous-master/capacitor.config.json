@@ -1,0 +1,9 @@
+{ 
+  "appId": "io.ionic.epicture",
+  "appName": "epicture",
+  "bundledWebRuntime": false, 
+  "npmClient": "npm", 
+  "webDir": "build",
+  "windowsAndroidStudioPath": "D:\\Jetbrains\\apps\\AndroidStudio\\ch-0\\201.6858069\\bin\\studio64.exe",
+  "cordova": {} 
+}

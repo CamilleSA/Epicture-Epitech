@@ -1,0 +1,174 @@
+html {
+    background-color: #27292d;
+
+}
+body {
+    background:linear-gradient(#19183c, #27292d);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+
+}
+.main_head{
+	height: 62px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 10px 0 10px;
+	font-family: 'Source Sans Pro';
+	flex-wrap: wrap;
+	position: relative;
+    max-width:100%;
+}
+.main_head .inner_blog{
+	width: 1050px;
+	display: flex;
+	position: relative;
+	padding: 6px;
+	justify-content: space-between;
+	z-index: 1;
+}
+
+.logo_head{
+    
+	align-items: center;
+	z-index: 1;
+	position: relative;
+	display: flex;
+}
+.logo_main {
+    padding-left: 0;
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+
+}
+
+.header_main .header_right .right_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.logo_main .dropbtn:hover{
+	background-color:#50545c;
+	border-radius: 50%;
+}
+.ButtonLink{
+    position: relative;
+    text-align: center;
+    height:35px;
+	width:auto;
+	border-radius: 3px;
+	box-shadow: 0 6px 10px 0 rgba(27,28,30,.31);
+	color:#fff;
+	padding:7px 5px 10px 9px;
+	font-weight: 700;
+	font-size: 15px;
+	text-decoration: none;
+	margin :auto 20px;
+	font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+	box-sizing: border-box;
+    background-color: #1bb76e;
+}
+.ButtonLink img{
+    vertical-align: middle;
+    padding: 0;
+    margin-right: 13px;
+    
+    display: inline-block;
+    position: relative;
+}
+.logo_head .btn_newpost{
+	min-width: 120px;
+	height: 30px;
+	text-align: center;
+	overflow: hidden;
+	color:#fff;
+	font-size: 13px;
+	font-family: 'Souce Sanse Pro';
+	font-weight: 600;
+	border-radius: 3px;
+	box-shadow: 0 6px 10px 0 rgba(27,28,30,.31);
+	padding:5px 8px 3px 5px;
+	margin-left:20px; 
+	box-sizing: border-box;
+	background-color: #1bb76e;
+
+}
+.btn_newpost img{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.drop_down{
+	background-color: #efefef;
+	min-width: 140px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	margin-left: 10px;
+	z-index: 99;
+}
+
+.drop_down a{
+	text-decoration: none;
+	color:#121211;
+	float: none;
+	display: block;
+	padding: 11px;
+	height: 40px;
+	box-sizing: border-box;
+	font-size:12px;
+	z-index: 1;
+}
+.drop_down a:first-child{
+	font-weight: bold;
+}
+.right_head{
+	display: flex;
+	align-items: center;
+}
+.search,.dot,.bell{
+	color:#f2f2f2;
+	margin-right: 30px;
+}
+.right_head a{
+	text-decoration: none;
+	color:#f2f2f2;
+	font-size: 12px;
+}
+#account{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	color:#f2f2f2;
+}
+#url:hover #account{
+display:block;
+}
+.dropurl{
+	background-color: #efefef;
+	width: 144px;
+	border-top: 4px solid green;
+	height: 200px;
+}
+.dropurl li{
+	list-style-type: none;
+	color:#121211;
+	padding: 10px;
+	font-size: 12px;
+}
+.dropurl li:last-child{
+	background-color: #ddd;
+
+	font-size: 12px;
+}
+.dropurl li .a{
+		color:#585858;
+		padding-right: 10px;
+}
+#icon_dropdown{
+	z-index: 1;
+	position:fixed;
+}
